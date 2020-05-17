@@ -121,4 +121,7 @@ interface IStatusBarService
      * Project 404
      */
     void toggleCameraFlash();
+    void setPartialScreenshot(boolean active);
+    void killForegroundApp();
+    void screenPinningStateChanged(boolean enabled);
 }

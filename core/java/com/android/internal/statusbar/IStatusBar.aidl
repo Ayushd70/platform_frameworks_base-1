@@ -181,4 +181,8 @@ oneway interface IStatusBar
      * Project 404
      */
     void toggleCameraFlash();
+    void setPartialScreenshot(boolean active);
+    void killForegroundApp();
+    void screenPinningStateChanged(boolean enabled);
+    void leftInLandscapeChanged(boolean isLeft);
 }
